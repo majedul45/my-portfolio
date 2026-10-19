@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-handwriting: 'Caveat', cursive;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
