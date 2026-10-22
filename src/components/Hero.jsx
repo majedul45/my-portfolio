@@ -40,11 +40,23 @@ const Hero = () => {
             </div>
 
             {/* Greeting & Headline */}
-            <div className="space-y-1.5">
-              <p className="text-slate-600 font-semibold text-base sm:text-lg tracking-tight flex items-center gap-2">
-                Hello, I&apos;m Majedul Haque <span className="inline-block origin-bottom-right">👋</span>
-              </p>
-              <h1 className="text-3xl sm:text-4xl lg:text-[44px] xl:text-[50px] font-black text-slate-900 tracking-tight leading-[1.14]">
+            <div className="space-y-2">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
+                <span className="text-slate-600 font-semibold text-base sm:text-lg lg:text-xl tracking-tight">
+                  Hello, I&apos;m
+                </span>
+                <span className="relative inline-block">
+                  <span className="text-2xl sm:text-3xl lg:text-[34px] font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[#1946E6] via-blue-600 to-indigo-600 drop-shadow-xs">
+                    Majedul Haque
+                  </span>
+                  <span className="absolute -bottom-1 left-0 w-full h-[4px] sm:h-[5px] bg-gradient-to-r from-[#1946E6] via-indigo-500 to-transparent rounded-full"></span>
+                </span>
+                <span className="animate-waving-hand text-2xl sm:text-3xl inline-block ml-0.5">
+                  👋
+                </span>
+              </div>
+
+              <h1 className="text-3xl sm:text-4xl lg:text-[44px] xl:text-[50px] font-black text-slate-900 tracking-tight leading-[1.14] pt-0.5">
                 Aspiring Full Stack{" "}
                 <span className="block mt-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600">
                   Web Developer
@@ -56,8 +68,10 @@ const Hero = () => {
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed max-w-xl">
               I craft clean, fast, and responsive web applications with{" "}
               <strong className="text-slate-900 font-bold">React.js</strong>,{" "}
-              <strong className="text-slate-900 font-bold">JavaScript (ES6+)</strong>, and{" "}
-              <strong className="text-slate-900 font-bold">Tailwind CSS</strong>. Currently learning and building modern web solutions through the Full Stack Web Engineering course.
+              <strong className="text-slate-900 font-bold">Node.js</strong>,{" "}
+              <strong className="text-slate-900 font-bold">Express.js</strong>,{" "}
+              <strong className="text-slate-900 font-bold">MongoDB</strong>, and{" "}
+              <strong className="text-slate-900 font-bold">Tailwind CSS</strong>. Dedicated to building modern, user-friendly full-stack solutions.
             </p>
 
             {/* Action Buttons */}
